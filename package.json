@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.ts",
+    "dev": "nodemon --watch './index.ts' --exec 'ts-node dev.ts'",
     "build": "tsc",
     "build:front": "parcel build ./src/index.html",
     "build:api": "",
