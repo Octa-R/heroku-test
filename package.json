@@ -4,9 +4,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --watch './index.ts' --exec 'ts-node dev.ts'",
-    "build": "tsc",
     "build:front": "parcel build ./src/index.html",
     "build:api": "",
+    "build": "tsc index.ts",
     "start": "node index.js"
   },
   "dependencies": {
